@@ -12,7 +12,8 @@ html {
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* Light theme colors */
+    --background: 270 60% 30%; /* Purple background */
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -38,8 +39,10 @@ html {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
-    --background: 0 0% 3.9%;
+    /* Dark theme colors */
+    --background: 270 50% 20%; /* Darker purple background */
     --foreground: 0 0% 98%;
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
@@ -89,7 +92,6 @@ html {
 }
 
 .hero-image {
-  /* transform: rotateX(20deg) scale(0.9) translateY(-50); */
   transform: rotateX(15deg) scale(1);
   transition: transform 0.5s ease-out;
   will-change: transform;
